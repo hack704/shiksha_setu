@@ -1344,6 +1344,379 @@
     </div>
   </section>
 
+  <!-- Departments Section -->
+  <section id="departments" class="departments">
+    <div class="container">
+      <div class="departments-header">
+        <h2>Departments</h2>
+        <p>Explore our diverse academic departments offering cutting-edge programs</p>
+      </div>
+
+      <div class="departments-slider">
+        <div class="department-slide active">
+          <div class="department-content">
+            <div class="department-image">
+              <img src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?w=800&h=600&fit=crop&crop=center" 
+                   alt="Department of Computer Science and Engineering - Advanced Computing Lab" 
+                   loading="lazy">
+            </div>
+            <div class="department-info">
+              <h3>Department of Computer Science and Engineering</h3>
+              <p>Leading the way in computer science education with advanced research facilities and industry-aligned curriculum in AI, Machine Learning, and Software Engineering.</p>
+              <div class="department-features">
+                <div class="feature">
+                  <span class="feature-icon">💻</span>
+                  <span>State-of-the-art Labs</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">🤖</span>
+                  <span>AI Research Center</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">🌐</span>
+                  <span>Industry Projects</span>
+                </div>
+              </div>
+              <a href="#" class="btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="department-slide">
+          <div class="department-content">
+            <div class="department-image">
+              <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=800&h=600&fit=crop&crop=center" 
+                   alt="Department of Maritime Security Studies - Naval Forces and Security Operations" 
+                   loading="lazy"
+                   onerror="this.src='https://images.unsplash.com/photo-1599134842279-fe807d23316e?w=800&h=600&fit=crop&crop=center'">
+            </div>
+            <div class="department-info">
+              <h3>Department of Maritime Security Studies</h3>
+              <p>Training the next generation of maritime security professionals with expertise in naval operations, coastal defense, and maritime law enforcement.</p>
+              <div class="department-features">
+                <div class="feature">
+                  <span class="feature-icon">⚓</span>
+                  <span>Naval Operations</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">🛥️</span>
+                  <span>Maritime Forces</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">🔒</span>
+                  <span>Tactical Training</span>
+                </div>
+              </div>
+              <a href="#" class="btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="department-slide">
+          <div class="department-content">
+            <div class="department-image">
+              <img src="https://images.unsplash.com/photo-1605627079912-97c3810a11a4?w=800&h=600&fit=crop&crop=center" 
+                   alt="Department of Electronics Engineering - Circuit Design Lab" 
+                   loading="lazy">
+            </div>
+            <div class="department-info">
+              <h3>Department of Electronics Engineering</h3>
+              <p>Pioneering research and education in electronics, embedded systems, and IoT technologies with modern laboratory facilities.</p>
+              <div class="department-features">
+                <div class="feature">
+                  <span class="feature-icon">🔌</span>
+                  <span>Electronics Lab</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">📱</span>
+                  <span>IoT Workshop</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">�️</span>
+                  <span>Design Studio</span>
+                </div>
+              </div>
+              <a href="#" class="btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="department-slide">
+          <div class="department-content">
+            <div class="department-image">
+              <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=800&h=600&fit=crop&crop=center" 
+                   alt="Department of Civil Engineering - Structural Design Studio" 
+                   loading="lazy">
+            </div>
+            <div class="department-info">
+              <h3>Department of Civil Engineering</h3>
+              <p>Building the future through innovative structural design, sustainable construction, and environmental engineering.</p>
+              <div class="department-features">
+                <div class="feature">
+                  <span class="feature-icon">🏗️</span>
+                  <span>Construction Lab</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">🌱</span>
+                  <span>Environmental Studies</span>
+                </div>
+                <div class="feature">
+                  <span class="feature-icon">📐</span>
+                  <span>Design Center</span>
+                </div>
+              </div>
+              <a href="#" class="btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="departments-navigation">
+        <button class="nav-prev" aria-label="Previous department">❮</button>
+        <div class="department-dots">
+          <button class="dot active" aria-label="Department 1"></button>
+          <button class="dot" aria-label="Department 2"></button>
+          <button class="dot" aria-label="Department 3"></button>
+          <button class="dot" aria-label="Department 4"></button>
+        </div>
+        <button class="nav-next" aria-label="Next department">❯</button>
+      </div>
+
+      <div class="departments-cta">
+        <a href="#" class="btn-primary">View All Departments</a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    /* Departments Section Styles */
+    .departments {
+      padding: var(--space-64) 0;
+      background: var(--color-bg-3);
+      position: relative;
+    }
+
+    .departments-header {
+      text-align: center;
+      margin-bottom: var(--space-48);
+    }
+
+    .departments-header h2 {
+      font-size: var(--font-size-4xl);
+      font-weight: var(--font-weight-bold);
+      color: var(--color-text);
+      margin-bottom: var(--space-16);
+      position: relative;
+      display: inline-block;
+    }
+
+    .departments-header h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-primary-hover));
+      border-radius: var(--radius-sm);
+    }
+
+    .departments-header p {
+      font-size: var(--font-size-lg);
+      color: var(--color-text-secondary);
+      margin-top: var(--space-16);
+    }
+
+    .departments-slider {
+      position: relative;
+      margin-bottom: var(--space-32);
+      overflow: hidden;
+    }
+
+    .department-slide {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .department-slide.active {
+      display: block;
+      opacity: 1;
+    }
+
+    .department-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-32);
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      transition: transform 0.3s ease;
+    }
+
+    .department-content:hover {
+      transform: translateY(-5px);
+    }
+
+    .department-image {
+      height: 100%;
+      min-height: 400px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .department-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      display: block;
+      min-height: 400px;
+      background-color: var(--color-bg-1);
+    }
+
+    .department-content:hover .department-image img {
+      transform: scale(1.05);
+    }
+
+    .department-info {
+      padding: var(--space-32);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .department-info h3 {
+      font-size: var(--font-size-2xl);
+      font-weight: var(--font-weight-bold);
+      margin-bottom: var(--space-16);
+      color: var(--color-text);
+      line-height: 1.3;
+    }
+
+    .department-info p {
+      font-size: var(--font-size-lg);
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-24);
+      line-height: 1.6;
+    }
+
+    .department-features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-16);
+      margin-bottom: var(--space-32);
+    }
+
+    .feature {
+      display: flex;
+      align-items: center;
+      gap: var(--space-8);
+      font-size: var(--font-size-sm);
+      color: var(--color-text-secondary);
+      padding: var(--space-8);
+      background: var(--color-bg-1);
+      border-radius: var(--radius-md);
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-2px);
+    }
+
+    .feature-icon {
+      font-size: var(--font-size-xl);
+    }
+
+    .departments-navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-24);
+      margin-top: var(--space-32);
+    }
+
+    .nav-prev,
+    .nav-next {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .nav-prev:hover,
+    .nav-next:hover {
+      background: var(--color-primary);
+      color: var(--color-surface);
+    }
+
+    .department-dots {
+      display: flex;
+      gap: var(--space-8);
+    }
+
+    .department-dots .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--color-border);
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .department-dots .dot.active {
+      background: var(--color-primary);
+      transform: scale(1.2);
+    }
+
+    .departments-cta {
+      text-align: center;
+      margin-top: var(--space-48);
+    }
+
+    @media (max-width: 992px) {
+      .school-content {
+        grid-template-columns: 1fr;
+      }
+
+      .school-image {
+        min-height: 300px;
+      }
+
+      .school-features {
+        grid-template-columns: 1fr;
+        gap: var(--space-12);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .schools {
+        padding: var(--space-32) 0;
+      }
+
+      .schools-header h2 {
+        font-size: var(--font-size-3xl);
+      }
+
+      .school-info h3 {
+        font-size: var(--font-size-xl);
+      }
+
+      .school-info p {
+        font-size: var(--font-size-base);
+      }
+    }
+  </style>
+
   <footer>
     <p>&copy; 2025 Shikshasetu University. All rights reserved.</p>
   </footer>
@@ -1485,6 +1858,112 @@
           clearInterval(autoPlayInterval);
         } else {
           startAutoPlay();
+        }
+      });
+
+      // Departments Slider Functionality
+      const departmentSlides = document.querySelectorAll('.department-slide');
+      const departmentDots = document.querySelectorAll('.department-dots .dot');
+      const prevBtn = document.querySelector('.departments-navigation .nav-prev');
+      const nextBtn = document.querySelector('.departments-navigation .nav-next');
+      let currentDepartmentIndex = 0;
+      let departmentAutoPlay;
+
+      function showDepartment(index) {
+        departmentSlides.forEach(slide => {
+          slide.classList.remove('active');
+          slide.setAttribute('aria-hidden', 'true');
+        });
+        departmentDots.forEach(dot => {
+          dot.classList.remove('active');
+          dot.setAttribute('aria-selected', 'false');
+        });
+        
+        departmentSlides[index].classList.add('active');
+        departmentSlides[index].setAttribute('aria-hidden', 'false');
+        departmentDots[index].classList.add('active');
+        departmentDots[index].setAttribute('aria-selected', 'true');
+
+        // Announce for screen readers
+        const departmentTitle = departmentSlides[index].querySelector('h3').textContent;
+        announceToScreenReader(`Now showing: ${departmentTitle}`);
+      }
+
+      function nextDepartment() {
+        currentDepartmentIndex = (currentDepartmentIndex + 1) % departmentSlides.length;
+        showDepartment(currentDepartmentIndex);
+      }
+
+      function prevDepartment() {
+        currentDepartmentIndex = (currentDepartmentIndex - 1 + departmentSlides.length) % departmentSlides.length;
+        showDepartment(currentDepartmentIndex);
+      }
+
+      function startDepartmentAutoPlay() {
+        departmentAutoPlay = setInterval(nextDepartment, 5000);
+      }
+
+      function stopDepartmentAutoPlay() {
+        clearInterval(departmentAutoPlay);
+      }
+
+      if (prevBtn && nextBtn) {
+        prevBtn.addEventListener('click', () => {
+          currentDepartmentIndex = (currentDepartmentIndex - 1 + departmentSlides.length) % departmentSlides.length;
+          showDepartment(currentDepartmentIndex);
+          stopDepartmentAutoPlay();
+          startDepartmentAutoPlay();
+        });
+
+        nextBtn.addEventListener('click', () => {
+          currentDepartmentIndex = (currentDepartmentIndex + 1) % departmentSlides.length;
+          showDepartment(currentDepartmentIndex);
+          stopDepartmentAutoPlay();
+          startDepartmentAutoPlay();
+        });
+      }
+
+      departmentDots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+          currentDepartmentIndex = index;
+          showDepartment(currentDepartmentIndex);
+          stopDepartmentAutoPlay();
+          startDepartmentAutoPlay();
+        });
+      });
+
+      // Handle touch events for departments slider
+      const departmentsSlider = document.querySelector('.departments-slider');
+      let departmentTouchStartX = 0;
+
+      departmentsSlider.addEventListener('touchstart', (e) => {
+        departmentTouchStartX = e.touches[0].clientX;
+      }, { passive: true });
+
+      departmentsSlider.addEventListener('touchend', (e) => {
+        const touchEndX = e.changedTouches[0].clientX;
+        const diff = departmentTouchStartX - touchEndX;
+
+        if (Math.abs(diff) > 50) { // Minimum swipe distance
+          if (diff > 0) {
+            nextDepartment();
+          } else {
+            prevDepartment();
+          }
+          stopDepartmentAutoPlay();
+          startDepartmentAutoPlay();
+        }
+      }, { passive: true });
+
+      // Start autoplay
+      startDepartmentAutoPlay();
+
+      // Pause autoplay when tab is not visible
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          stopDepartmentAutoPlay();
+        } else {
+          startDepartmentAutoPlay();
         }
       });
     });
